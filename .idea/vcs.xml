@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/basic-counter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/container_pattern/pizza-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flux/jetsetter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flux/pizza-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react_state/jetsetter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redux/jetsetter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redux/pizza-calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/redux_thunk/jetsetter" vcs="Git" />
+  </component>
+</project>

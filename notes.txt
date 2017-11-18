@@ -1,0 +1,56 @@
+State Management Patterns:
+- Container Pattern - Draws a line between state and presentation
+
+- Higher Order Component (container factory)
+- Render Properties
+
+- Redux is small = 5 methods
+applyMiddleware: function()
+bindActionCreators: function()
+combineReducers: function()
+compose: function()
+createStore: function()
+
+- Thunk
+thunk (noun): a function returned from another function.
+
+- Generators
+Generators are a way to delay execution.
+It gives the ability to pause functions and come back to them later with more information.
+
+- Saga
+With a saga, we set up a generator function to intercept the dispatched action object.
+
+- Get
+Getters and setters may seem like some fancy new magic, but they’ve been around since ES5.
+
+class Person {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+    get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+    }
+ }
+
+- Decorators
+Effectively decorators provide a syntactic sugar for higher-order functions.
+npm install core-decorators
+@autobind
+@deprecate
+@readonly
+@memoize
+@debounce
+@profile
+
+- MobX
+A primary tenet of using MobX is that you can store state in a simple data structure
+and allow the library to care of keeping everything up to date.
+
+Major Concepts:
+•Observable state
+•Actions
+•Derivations
+ •Computed properties
+ •Reactions
